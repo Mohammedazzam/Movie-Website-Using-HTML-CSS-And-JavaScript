@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.col {
+  background: red;
+width: 100px;
+height: 100px;
+margin: 15px;
+}
+
+.row {
+  display: flex;
+
+}
+
+.container.flex-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container.flex-column .row {
+  flex-direction: column;
+}
+
